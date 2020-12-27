@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+#global {
+    position: absolute;
+    width: 50vw;
+    height: 70vh;
+    left: 200px;
+}
+
+#hide {
+    position: absolute;
+}
+
+i{
+    font-size: 5rem;
+    color: whitesmoke;
+}
