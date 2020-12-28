@@ -1,3 +1,9 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
     display: flex;
     flex-direction: row;
@@ -8,16 +14,24 @@ body {
 
 #global {
     position: absolute;
-    width: 50vw;
-    height: 70vh;
-    left: 200px;
-}
-
-#hide {
-    position: absolute;
+    width: 1200px;
+    height: 50vh;
+    left: 12vw;
 }
 
 i{
-    font-size: 5rem;
+    font-size: 2rem;
     color: whitesmoke;
+}
+
+.hid{
+    position: absolute;
+    background-color: white;
+    z-index: 100;
+}
+
+img{
+    position: absolute;
+    width: 25vw;
+    height: 100%;
 }
